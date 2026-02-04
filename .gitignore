@@ -1,0 +1,37 @@
+# API Keys and Credentials
+config.py
+.env
+.env.local
+credentials.json
+
+# Data files (may contain real event/user data)
+*.csv
+!example_input.csv
+
+# Output files
+lineup_suggestions.csv
+error_log.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
