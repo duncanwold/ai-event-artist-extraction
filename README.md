@@ -230,7 +230,7 @@ Both OpenAI and Spotify have rate limits. Built-in retry logic and progress trac
 
 ## Attribution
 
-Built at **Eventbrite** to support the Lineup feature launch. This implementation is shared with permission from Eventbrite's legal and engineering teams. The Lineup feature concept and business strategy are owned by Eventbrite.
+This tool was built at **Eventbrite** and is shared with explicit permission from Eventbrite's legal and engineering teams. The Lineup feature concept and underlying business strategy are owned by Eventbrite. This repository demonstrates technical implementation and is for portfolio purposes only.
 
 ## Background
 
