@@ -31,10 +31,10 @@ Event: "Who's Bad: The Ultimate Michael Jackson Experience"
 ```
 
 **AI Analysis:**
-- ✅ Identifies "Who's Bad" as the performing artist
-- ✅ Recognizes it's a tribute band (`isTribute: true`)
-- ❌ Correctly excludes "Michael Jackson" (not performing, despite being mentioned)
-- ✅ Assigns confidence level (`high`, `medium`, `low`)
+- Identifies "Who's Bad" as the performing artist
+- Recognizes it's a tribute band (`isTribute: true`)
+- Correctly excludes "Michael Jackson" (not performing, despite being mentioned)
+- Assigns confidence level (`high`, `medium`, `low`)
 
 **Context-Aware Logic:**
 - Detects tribute bands vs original artists
@@ -191,25 +191,25 @@ Handles cases like:
 
 ## Code Quality Features
 
-✅ **Type hints** for function signatures  
-✅ **Comprehensive error handling**  
-✅ **Progress indicators** for user feedback  
-✅ **Modular design** (separate functions for each API)  
-✅ **Configuration management** (API keys centralized)  
-✅ **Logging infrastructure** (error_log.txt)  
+**Type hints** for function signatures  
+**Comprehensive error handling**  
+**Progress indicators** for user feedback  
+**Modular design** (separate functions for each API)  
+**Configuration management** (API keys centralized)  
+**Logging infrastructure** (error_log.txt)  
 
 ## Lessons Learned
 
-**🤖 LLM Prompt Engineering is Critical**
+**LLM Prompt Engineering is Critical**
 Initial versions struggled with tribute bands and transportation events. Iterative prompt refinement with explicit reasoning steps dramatically improved accuracy.
 
-**📊 Data Quality > Data Quantity**
+**Data Quality > Data Quantity**
 Adding validation rules and review flags was essential. Better to flag 10% for manual review than spam creators with false positives.
 
-**🎯 Follower Count Proxy Works**
+**Follower Count Proxy Works**
 Spotify followers proved to be an excellent proxy for marketing impact. Events featuring artists with 1M+ followers had significantly higher campaign engagement.
 
-**⚡ Rate Limits are Real**
+**Rate Limits are Real**
 Both OpenAI and Spotify have rate limits. Built-in retry logic and progress tracking made the tool production-ready.
 
 ## Future Enhancements
